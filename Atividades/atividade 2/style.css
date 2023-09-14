@@ -1,0 +1,102 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho (Flexbox) */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para o banner principal (CSS Grid) */
+.hero {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero-content {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+/* Estilos para a seção de destaques (CSS Grid) */
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.feature {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Estilos para a seção de conteúdo (CSS Grid) */
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 40px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+/* Estilos para o rodapé (Flexbox) */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    /* Modifique o layout para se adaptar a telas menores, se necessário */
+}

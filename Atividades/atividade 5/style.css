@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-list {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list li {
+    margin: 10px 0;
+    padding-left: 30px; /* Adiciona espaço para o ícone */
+    position: relative;
+}
+
+.custom-list li::before {
+    content: "\2022"; /* Código Unicode para um ponto (•) */
+    color: #007bff; /* Cor do ícone */
+    font-size: 20px; /* Tamanho do ícone */
+    position: absolute;
+    left: 0;
+    top: 4px; /* Ajuste vertical para centralizar o ícone */
+}
